@@ -1,0 +1,18 @@
+{
+    "name": "mtn-sms/mtn-bulksms-php-sdk",
+    "description": "PHP SDK for MTN API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kazashim Kuzasuwat",
+            "email": "kazashimkuzasuwat@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MtnApiSdk\\": "src/"
+        }
+    }
+}
