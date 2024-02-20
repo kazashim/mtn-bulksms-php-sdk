@@ -1,7 +1,11 @@
 {
     "name": "mtn-sms/mtn-bulksms-php-sdk",
     "description": "PHP SDK for MTN API",
-    "type": "library",
+    "type": "lybrary",
+    "require": {
+        "php": "7.2.4",
+        "guzzlehttp/guzzle": "7.9.x-dev"
+    },
     "license": "MIT",
     "authors": [
         {
@@ -9,7 +13,7 @@
             "email": "kazashimkuzasuwat@gmail.com"
         }
     ],
-    "require": {},
+
     "autoload": {
         "psr-4": {
             "MtnApiSdk\\": "src/"
